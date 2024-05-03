@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  kanban-backend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-04T01:52:07.199487+02:00"
+    dependencies:
+    - condition: database.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.6
+    description: A Helm chart for kanban-backend
+    digest: b0d829ddca159818b32e572d311c2fdf6bdcf0740d4c8e6f33685d6a65dfe6e9
+    name: kanban-backend
+    type: application
+    urls:
+    - https://deresegetachew.github.io/playing-helm/charts/kanban-backend-0.1.0.tgz
+    version: 0.1.0
+  kanban-frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-04T01:52:07.199795+02:00"
+    description: A Helm chart for kanban-frontend
+    digest: cec75cb8ef4a7b7d5f3537b95a3d61963acd27b52cb38de5b580fbde56fa8157
+    name: kanban-frontend
+    type: application
+    urls:
+    - https://deresegetachew.github.io/playing-helm/charts/kanban-frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-04T01:52:07.196305+02:00"

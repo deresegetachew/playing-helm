@@ -1,14 +1,23 @@
 apiVersion: v1
 entries:
-  app:
+  kanban:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-03T13:56:53.821167+02:00"
-    description: A Helm chart for Kubernetes
-    digest: ae0b1a396565c5b8ef31b48e43da339f487d18c6206c3b8f05d298f776493d54
-    name: app
+    created: "2024-05-04T01:52:23.906602+02:00"
+    dependencies:
+    - condition: kanban-frontend.enabled
+      name: kanban-frontend
+      repository: file://../kanban-frontend
+      version: 0.1.0
+    - condition: kanban-backend.enabled
+      name: kanban-backend
+      repository: file://../kanban-backend
+      version: 0.1.0
+    description: A Helm umbrella chart for kanban application
+    digest: d7e459d87b7b8e29d68668a8725a67f9de4b94bfffbcf533625e918b19113ead
+    name: kanban
     type: application
     urls:
-    - https://deresegetachew.github.io/playing-helm/app-0.1.0.tgz
+    - https://deresegetachew.github.io/playing-helm/kanban-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-03T13:56:53.820626+02:00"
+generated: "2024-05-04T01:52:23.899986+02:00"

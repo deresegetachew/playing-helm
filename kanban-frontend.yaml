@@ -1,6 +1,0 @@
-app:
-  name: kanban-frontend
-  group: frontend
-  container:
-    image: wkrzywiec/kanban-ui:helm-course
-    port: 80
