@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-03T13:56:53.821167+02:00"
+    description: A Helm chart for Kubernetes
+    digest: ae0b1a396565c5b8ef31b48e43da339f487d18c6206c3b8f05d298f776493d54
+    name: app
+    type: application
+    urls:
+    - https://deresegetachew.github.io/playing-helm/app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-03T13:56:53.820626+02:00"
