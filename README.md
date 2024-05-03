@@ -1,2 +1,2 @@
 # playing-helm
-payling with helm for fun
+payling with helm for fun :)
